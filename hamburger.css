@@ -1,3 +1,11 @@
+:root{
+  --light-blue: #8ECAE6;
+  --orange: #F5841F;
+  --dark-blue: #16213C;
+  --svetlounce-modra: #F1F9FC;
+  --bila: #FFFFFF;
+  --sediva: #FAFAFA;
+}
 .hamburger {
   --rotate-time: 0.15s;
   --move-time: 0.1s;
@@ -36,6 +44,14 @@
   transform: scaleY(0);
   transition: 1s;
   transform-origin: top;
+  position: absolute;
+  background-color: var(--svetlounce-modra);
+  width: 100vh;
+  
+}
+.nav-menu{
+  padding: 0 ;
+  margin: 0 ;
 }
 .hamburger-row {
   padding: 1em;
@@ -79,13 +95,8 @@
 
   .hamburger-nav {
       transform: none;
-      height: calc(100vh - 4px);
+      position: absolute;
   }
 
-  .hamburger-nav ul {
-      height: 100%;
-      width: 33vw;
-      max-width: 200px;
-      
-  }
+  
 }
