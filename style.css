@@ -1,23 +1,56 @@
+:root{
+  --light-blue: #8ECAE6;
+  --orange: #F5841F;
+  --dark-blue: #16213C;
+  --svetlounce-modra: #F1F9FC;
+  --bila: #FFFFFF;
+  --sediva: #FAFAFA;
+}
+.logo {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  padding-left: 1em;
+}
+.header-kontaktik {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: --sediva;
+  font-size: 14px;
+  font-weight: bold;
+}
+.kontaktik-leva{
+  display: flex;
+  
+}
+.top{
+  position: relative;
+}
+.kontaktik-dilek{
+  padding: 1em;
+}
+.dilek-poddilek{
+  display: flex;
+  margin: 0.5em;
+  display: flex;
+  align-items: center
+  ;
+}
 
-.logo{
-    position: absolute;
-   
-}
-.header-kontaktik{
-    display: flex;
-    flex-direction: row;
-}
+
+
+
 @media screen and (max-width: 639px) {
-  .header-kontaktik{
+  .header-kontaktik {
     display: none;
   }
-  .logo{
-    position: absolute;
+  .logo {
   }
+}
 
-    
-  }
-  
 @media screen and (min-width: 640px) {
-  
+  .logo {
+    position: static;
   }
+}
