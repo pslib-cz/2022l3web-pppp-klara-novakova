@@ -4,19 +4,17 @@
   --dark-blue: #16213C;
   --svetlounce-modra: #F1F9FC;
   --bila: #FFFFFF;
-  --sediva: #FAFAFA;
+  --sediva: #F5F5F5;
 }
 .logo {
-  position: absolute;
-  top: 25%;
-  width: 100%;
-  padding-left: 1em;
+  
+  padding: 1em;
 }
 .header-kontaktik {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: --sediva;
+  background-color: var(--sediva);
   font-size: 14px;
   font-weight: bold;
 }
@@ -38,19 +36,25 @@
   ;
 }
 
+.button{
+  background-color: var(--orange);
+  border: none;
+  padding: 12px 24px;
+  border-radius: 50px;
+  color: var(--bila);
+  font-weight: bold;
+  font-size: 16px;
+  white-space: nowrap;
+}
 
 
-
-@media screen and (max-width: 639px) {
+@media screen and (max-width: 829px) {
   .header-kontaktik {
     display: none;
   }
-  .logo {
-  }
+  
 }
 
-@media screen and (min-width: 640px) {
-  .logo {
-    position: static;
-  }
+@media screen and (min-width: 830px) {
+  
 }

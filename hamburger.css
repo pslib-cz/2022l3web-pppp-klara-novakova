@@ -1,10 +1,10 @@
-:root{
-  --light-blue: #8ECAE6;
-  --orange: #F5841F;
-  --dark-blue: #16213C;
-  --svetlounce-modra: #F1F9FC;
-  --bila: #FFFFFF;
-  --sediva: #FAFAFA;
+:root {
+  --light-blue: #8ecae6;
+  --orange: #f5841f;
+  --dark-blue: #16213c;
+  --svetlounce-modra: #f1f9fc;
+  --bila: #ffffff;
+  --sediva: #f5f5f5;
 }
 .hamburger {
   --rotate-time: 0.15s;
@@ -13,6 +13,7 @@
   width: 60px;
   height: 45px;
   position: relative;
+  z-index: 1;
 }
 
 .hamburger span {
@@ -32,7 +33,6 @@
 .hamburger span:nth-child(2) {
   top: 18px;
   transition: 1s;
-  
 }
 
 .hamburger span:nth-child(3) {
@@ -45,21 +45,14 @@
   transition: 1s;
   transform-origin: top;
   position: absolute;
-  background-color: var(--svetlounce-modra);
-  width: 100vh;
-  
 }
-.nav-menu{
-  padding: 0 ;
-  margin: 0 ;
+.nav-menu {
+  padding: 0;
+  margin: 0;
 }
 .hamburger-row {
   padding: 1em;
-  
-  display: flex;
-  justify-content: flex-end;
 }
-
 
 .hamburger-nav ul {
   margin: 0;
@@ -69,11 +62,17 @@
   display: block;
   padding: 0.25em 1em;
 }
+.top {
+  display: flex;
+  flex-direction: row;
 
-@media screen and (max-width: 639px) {
-  
+  justify-content: space-between;
+}
+@media screen and (max-width: 829px) {
   .hamburger-nav.active {
     transform: scaleY(1);
+    background-color: var(--svetlounce-modra);
+    width: 100%;
   }
   .hamburger.active span:nth-child(1) {
     transform: translateY(18px) rotate(45deg);
@@ -86,17 +85,31 @@
     transform: translateY(-18px) rotate(-45deg);
   }
 }
+.nav-menu > li > a {
+  font-size: 17px;
+  font-weight: 800;
+}
 
-
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 830px) {
   .hamburger-row {
-      display: none;
+    display: none;
   }
 
   .hamburger-nav {
-      transform: none;
-      position: absolute;
+    transform: none;
+    position: static;
+    background-color: transparent;
   }
-
-  
+  .nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .nav-menu > li:nth-child(1) {
+    order: 4;
+  }
+  .top {
+    align-items: center;
+  }
 }
