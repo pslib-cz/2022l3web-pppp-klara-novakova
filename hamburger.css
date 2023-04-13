@@ -68,11 +68,15 @@
 
   justify-content: space-between;
 }
+.nav-menu > li > a {
+  font-size: 17px;
+  font-weight: 800;
+}
 @media screen and (max-width: 829px) {
   .hamburger-nav.active {
     transform: scaleY(1);
     background-color: var(--svetlounce-modra);
-    width: 100%;
+    
   }
   .hamburger.active span:nth-child(1) {
     transform: translateY(18px) rotate(45deg);
@@ -84,10 +88,18 @@
   .hamburger.active span:nth-child(3) {
     transform: translateY(-18px) rotate(-45deg);
   }
-}
-.nav-menu > li > a {
-  font-size: 17px;
-  font-weight: 800;
+  .hamburger-nav{
+    min-width: 316px;
+    position: absolute;
+    right: 0;
+  }
+  .nav-menu{
+    text-align: end;
+  }
+  .nav-menu > li:nth-child(1){
+    text-align: start;
+  }
+
 }
 
 @media screen and (min-width: 830px) {
