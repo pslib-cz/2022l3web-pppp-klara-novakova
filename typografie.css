@@ -7,20 +7,19 @@ a{
     text-decoration: none;
     display: block;
     width: 100%;
-    
     color: black;
+    
 }
 h2{
   text-align: center;
   font-size: 32px;
   font-weight: 800;
+  padding: 1em;
 }
 .text-oranzova{
   color:var(--orange);
 }
-.zarovnani-vlevo{
-  text-align: left;
-}
+
 section{
   margin: 1.5em;
 }
@@ -36,4 +35,10 @@ section{
 }
 .sekce-schovanej-nadpis{
   position: relative;
+}
+section{
+  margin: 0;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-bottom: 1em;
 }
