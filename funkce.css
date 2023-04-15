@@ -1,0 +1,30 @@
+:root {
+    --light-blue: #8ecae6;
+    --orange: #f5841f;
+    --dark-blue: #16213c;
+    --svetlounce-modra: #f1f9fc;
+    --bila: #ffffff;
+    --sediva: #f5f5f5;
+  }
+.videotutorily__container{
+    background-color: var(--sediva);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1em;
+    padding: 4em;
+    border-radius: 30px;
+}
+.videotutorialy__item{
+    max-width: 304px;
+    max-height: 196px;
+    display: block;
+}
+.videotutorialy__item > h3{
+    color: var(--orange);
+}
+.videotutorialy__item:hover > h3{
+    color: black;
+}
+.mate-dotaz__container{
+    text-align: center;
+}

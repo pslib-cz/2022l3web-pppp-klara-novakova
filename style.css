@@ -29,7 +29,7 @@
 .dilek-poddilek {
   display: flex;
   margin: 0.5em;
-  display: flex;
+  gap: 0.5em;
   align-items: center;
 }
 
@@ -43,6 +43,9 @@
   font-size: 16px;
   white-space: nowrap;
   margin: 0.5em;
+}
+.button:hover{
+  background-color: #16213c;
 }
 .section-1__naspis {
   text-align: left;
@@ -107,12 +110,12 @@
 .section-4 {
   background-color: var(--svetlounce-modra);
 }
-.section-4__item > h3 {
+.karticka > h3 {
   margin: 1.5em;
   font-weight: 800;
   
 }
-.section-4__item > p {
+.karticka > p {
   margin: 1.5em;
   display: -webkit-box;
   -webkit-line-clamp: 3;
@@ -121,10 +124,12 @@
   text-overflow: ellipsis;
   
 }
-
-.section-4__item {
+.karticka{
   background-color: white;
   border-radius: 8px;
+}
+.section-4__item {
+  
   width: 304px;
   height: 200px;
   padding: 1em;
@@ -190,26 +195,60 @@
 footer{
   background-color: var(--dark-blue);
   color: var(--light-blue);
+  padding: 1.5em;
 
 }
 footer  a{
   color: var(--light-blue);
+  text-align: start;
+  line-height: 1.5em;
+  
 } 
 
 .footer__container{
  display: flex;
 justify-content: space-around;
+flex-wrap: wrap;
+gap: 1em;
+margin-bottom: 1em;
+}
 
+.footer__oddilek{
+  margin: 0;
+  padding: 1em 0 1em 0;
+}
+footer .dilek-poddilek{
+  margin: 0;
+}
+footer address{
+  font-style: normal;
+  line-height: 1.5em;
+}
 
+.footer__copyright{
+  
+  display: block;
+  border-top: 1px solid #8ecae6;
+  
+}
+.copyright__container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  padding-top: 1em;
+}
+.copyright__container > a{
+  width: fit-content;
+  padding-right: 1em;
+}
+.cara{
+  border-right: 1px solid #8ecae6;
 }
 
 
-
-
-
-
-
-
+.footer__item{
+  padding-top: 1em;
+}
 
 
 
@@ -243,6 +282,20 @@ justify-content: space-around;
   }
  
 }
+@media screen and (max-width: 460px){
+   .footer__container{
+    flex-direction: column;
+   } 
+   
+}
+@media screen and (min-width: 700px){
+  .footer__contejner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+}
 
 @media screen and (min-width: 830px) {
   .section-1 {
@@ -255,4 +308,6 @@ justify-content: space-around;
     display: flex;
   
   }
+  
+  
 }
