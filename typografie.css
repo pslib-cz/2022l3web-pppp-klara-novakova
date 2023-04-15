@@ -15,3 +15,25 @@ h2{
   font-size: 32px;
   font-weight: 800;
 }
+.text-oranzova{
+  color:var(--orange);
+}
+.zarovnani-vlevo{
+  text-align: left;
+}
+section{
+  margin: 1.5em;
+}
+.bold{
+  font-weight: bold;
+}
+.bolder{
+  font-weight: 800;
+}
+.schovanej-nadpis{
+  position: absolute;
+  left: -999999999999999999999999999px;
+}
+.sekce-schovanej-nadpis{
+  position: relative;
+}
