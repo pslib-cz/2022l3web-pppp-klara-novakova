@@ -13,9 +13,13 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: var(--sediva);
+  
   font-size: 14px;
   font-weight: bold;
+}
+.header-kontaktik-background{
+  background-color: var(--sediva);
+ 
 }
 .kontaktik-leva {
   display: flex;
@@ -250,8 +254,9 @@ footer address{
   padding-top: 1em;
 }
 
-
-
+.modry-pozadi{
+  background-color: var(--svetlounce-modra);
+}
 
 
 
@@ -296,7 +301,18 @@ footer address{
   }
   
 }
-
+@media screen and (min-width: 1311px){
+  .max-width{
+    width:1311px ;
+  
+  }
+  .max-width-obal{
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+}
 @media screen and (min-width: 830px) {
   .section-1 {
     display: flex;
