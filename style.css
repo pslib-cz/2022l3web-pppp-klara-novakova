@@ -214,7 +214,7 @@ footer  a{
 justify-content: space-around;
 flex-wrap: wrap;
 gap: 1em;
-margin-bottom: 1em;
+padding-bottom: 1em;
 }
 
 .footer__oddilek{
@@ -302,16 +302,11 @@ footer address{
   
 }
 @media screen and (min-width: 1311px){
-  .max-width{
-    width:1311px ;
   
+  .section--uzsi{
+    width: 1311px ;
+    margin: 0 auto;
   }
-  .max-width-obal{
-    display: flex;
-    justify-content: center;
-  }
-  
-  
 }
 @media screen and (min-width: 830px) {
   .section-1 {
