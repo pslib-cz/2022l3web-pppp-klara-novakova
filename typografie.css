@@ -6,7 +6,8 @@
 a{
     text-decoration: none;
     display: block;
-    width: 100%;
+    
+    
     color: black;
     
 }
@@ -42,4 +43,9 @@ section{
   padding-left: 1.5em;
   padding-right: 1.5em;
   padding-bottom: 1em;
+}
+h1{
+  font-size: 40px;
+  
+  font-weight:800 ;
 }

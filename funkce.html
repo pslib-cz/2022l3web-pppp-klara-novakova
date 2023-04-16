@@ -99,7 +99,7 @@
           <menu class="nav-menu">
             <li><button class="button">Zkušební verze</button></li>
             <li class="li-cara"><a href="./index.html">Úvod</a></li>
-            <li class="li-cara"><a href="funkce.html">Funkce</a></li>
+            <li class="li-cara podtrzeny"><a href="funkce.html">Funkce</a></li>
             <li class="li-cara"><a href="">Podpora</a></li>
             <li class="li-cara"><a href="">Ceník</a></li>
             <li class="li-cara"><a href="">Kontakt</a></li>
@@ -108,19 +108,67 @@
       </div>
     </header>
     <main>
-      <h1>Funkce</h1>
-      <div>
-        <a href="./index.html">Úvod</a>
-        <a href="./funkce.html">Funkce</a>
+      <div class="section__nadpis section--uzsi">
+        <h1>Funkce</h1>
+        <div class="drobenka">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              opacity="0.2"
+              d="M6 19H9V13H15V19H18V10L12 5.5L6 10V19ZM6 21C5.45 21 4.97933 20.8043 4.588 20.413C4.196 20.021 4 19.55 4 19V10C4 9.68333 4.071 9.38333 4.213 9.1C4.35433 8.81667 4.55 8.58333 4.8 8.4L10.8 3.9C10.9833 3.76667 11.175 3.66667 11.375 3.6C11.575 3.53333 11.7833 3.5 12 3.5C12.2167 3.5 12.425 3.53333 12.625 3.6C12.825 3.66667 13.0167 3.76667 13.2 3.9L19.2 8.4C19.45 8.58333 19.646 8.81667 19.788 9.1C19.9293 9.38333 20 9.68333 20 10V19C20 19.55 19.8043 20.021 19.413 20.413C19.021 20.8043 18.55 21 18 21H13V15H11V21H6Z"
+              fill="black"
+            />
+          </svg>
+
+          <a href="./index.html">Úvod</a>
+          <svg
+            width="4"
+            height="4"
+            viewBox="0 0 4 4"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle cx="2" cy="2" r="2" fill="#F5841F" />
+          </svg>
+
+          <a href="./funkce.html">Funkce</a>
+        </div>
       </div>
-      <section>
-        <h2>Seznam funkcí aplikace</h2>
-        <p>
-          Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
-          suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.
-        </p>
-        <a href=""></a>
-        <p>Videotutoriály</p>
+
+      <section class="section__seznam-funkci section--uzsi">
+        <div class="seznam-funkci__container">
+          <div class="seznam-funkci__item">
+            <h2>Seznam funkcí aplikace</h2>
+            <p>
+              Ut enim ad minima veniam, quis nostrum exercitationem ullam
+              corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
+              consequatur.
+            </p>
+          </div>
+          <div class="seznam-funkci__item">
+            <a href=""
+              ><svg
+                width="91"
+                height="90"
+                viewBox="0 0 91 90"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M36.125 34.9688V55.0312C36.125 56.4688 36.7812 57.5625 38.0937 58.3125C39.4062 59.0625 40.6875 59 41.9375 58.125L57.5 48.1875C58.6875 47.4375 59.2812 46.375 59.2812 45C59.2812 43.625 58.6875 42.5625 57.5 41.8125L41.9375 31.875C40.6875 31 39.4062 30.9375 38.0937 31.6875C36.7812 32.4375 36.125 33.5312 36.125 34.9688ZM45.5 82.5C40.3125 82.5 35.4375 81.515 30.875 79.545C26.3125 77.5775 22.3438 74.9062 18.9688 71.5312C15.5938 68.1562 12.9225 64.1875 10.955 59.625C8.985 55.0625 8 50.1875 8 45C8 39.8125 8.985 34.9375 10.955 30.375C12.9225 25.8125 15.5938 21.8438 18.9688 18.4688C22.3438 15.0938 26.3125 12.4212 30.875 10.4512C35.4375 8.48375 40.3125 7.5 45.5 7.5C50.6875 7.5 55.5625 8.48375 60.125 10.4512C64.6875 12.4212 68.6562 15.0938 72.0312 18.4688C75.4062 21.8438 78.0775 25.8125 80.045 30.375C82.015 34.9375 83 39.8125 83 45C83 50.1875 82.015 55.0625 80.045 59.625C78.0775 64.1875 75.4062 68.1562 72.0312 71.5312C68.6562 74.9062 64.6875 77.5775 60.125 79.545C55.5625 81.515 50.6875 82.5 45.5 82.5Z"
+                  fill="#F5841F"
+                />
+              </svg>
+            </a>
+            <p>Videotutoriály</p>
+          </div>
+        </div>
+
         <div class="videotutorily__container">
           <a class="videotutorialy__item karticka" href=""
             ><h3>Administrace aplikace</h3>
@@ -128,99 +176,256 @@
               Integer malesuada. Nullam faucibus mi tquis velit. Fusce
               consectetuer risus a nunc. Nam quis nulla. Nemo enim ipsam
               voluptatem quia voluptas
-            </p></a
-          >
+            </p>
+            <button class="button">
+              <svg
+                width="16"
+                height="12"
+                viewBox="0 0 16 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9.3 10.85C9.1 10.65 9.004 10.4083 9.012 10.125C9.02067 9.84167 9.125 9.6 9.325 9.4L12.15 6.575H1C0.716667 6.575 0.479 6.479 0.287 6.287C0.0956668 6.09567 0 5.85833 0 5.575C0 5.29167 0.0956668 5.054 0.287 4.862C0.479 4.67067 0.716667 4.575 1 4.575H12.15L9.3 1.725C9.1 1.525 9 1.28733 9 1.012C9 0.737333 9.1 0.5 9.3 0.3C9.5 0.0999997 9.73767 0 10.013 0C10.2877 0 10.525 0.0999997 10.725 0.3L15.3 4.875C15.4 4.975 15.471 5.08333 15.513 5.2C15.5543 5.31667 15.575 5.44167 15.575 5.575C15.575 5.70833 15.5543 5.83333 15.513 5.95C15.471 6.06667 15.4 6.175 15.3 6.275L10.7 10.875C10.5167 11.0583 10.2877 11.15 10.013 11.15C9.73767 11.15 9.5 11.05 9.3 10.85Z"
+                  fill="white"
+                />
+              </svg></button
+          ></a>
+
           <a class="videotutorialy__item karticka" href=""
             ><h3>Administrace aplikace</h3>
             <p>
               Integer malesuada. Nullam faucibus mi tquis velit. Fusce
               consectetuer risus a nunc. Nam quis nulla. Nemo enim ipsam
               voluptatem quia voluptas
-            </p></a
-          >
+            </p>
+            <button class="button">
+              <svg
+                width="16"
+                height="12"
+                viewBox="0 0 16 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9.3 10.85C9.1 10.65 9.004 10.4083 9.012 10.125C9.02067 9.84167 9.125 9.6 9.325 9.4L12.15 6.575H1C0.716667 6.575 0.479 6.479 0.287 6.287C0.0956668 6.09567 0 5.85833 0 5.575C0 5.29167 0.0956668 5.054 0.287 4.862C0.479 4.67067 0.716667 4.575 1 4.575H12.15L9.3 1.725C9.1 1.525 9 1.28733 9 1.012C9 0.737333 9.1 0.5 9.3 0.3C9.5 0.0999997 9.73767 0 10.013 0C10.2877 0 10.525 0.0999997 10.725 0.3L15.3 4.875C15.4 4.975 15.471 5.08333 15.513 5.2C15.5543 5.31667 15.575 5.44167 15.575 5.575C15.575 5.70833 15.5543 5.83333 15.513 5.95C15.471 6.06667 15.4 6.175 15.3 6.275L10.7 10.875C10.5167 11.0583 10.2877 11.15 10.013 11.15C9.73767 11.15 9.5 11.05 9.3 10.85Z"
+                  fill="white"
+                />
+              </svg></button
+          ></a>
           <a class="videotutorialy__item karticka" href=""
             ><h3>Administrace aplikace</h3>
             <p>
               Integer malesuada. Nullam faucibus mi tquis velit. Fusce
               consectetuer risus a nunc. Nam quis nulla. Nemo enim ipsam
               voluptatem quia voluptas
-            </p></a
-          >
+            </p>
+            <button class="button">
+              <svg
+                width="16"
+                height="12"
+                viewBox="0 0 16 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9.3 10.85C9.1 10.65 9.004 10.4083 9.012 10.125C9.02067 9.84167 9.125 9.6 9.325 9.4L12.15 6.575H1C0.716667 6.575 0.479 6.479 0.287 6.287C0.0956668 6.09567 0 5.85833 0 5.575C0 5.29167 0.0956668 5.054 0.287 4.862C0.479 4.67067 0.716667 4.575 1 4.575H12.15L9.3 1.725C9.1 1.525 9 1.28733 9 1.012C9 0.737333 9.1 0.5 9.3 0.3C9.5 0.0999997 9.73767 0 10.013 0C10.2877 0 10.525 0.0999997 10.725 0.3L15.3 4.875C15.4 4.975 15.471 5.08333 15.513 5.2C15.5543 5.31667 15.575 5.44167 15.575 5.575C15.575 5.70833 15.5543 5.83333 15.513 5.95C15.471 6.06667 15.4 6.175 15.3 6.275L10.7 10.875C10.5167 11.0583 10.2877 11.15 10.013 11.15C9.73767 11.15 9.5 11.05 9.3 10.85Z"
+                  fill="white"
+                />
+              </svg></button
+          ></a>
           <a class="videotutorialy__item karticka" href=""
             ><h3>Administrace aplikace</h3>
             <p>
               Integer malesuada. Nullam faucibus mi tquis velit. Fusce
               consectetuer risus a nunc. Nam quis nulla. Nemo enim ipsam
               voluptatem quia voluptas
-            </p></a
-          >
+            </p>
+            <button class="button">
+              <svg
+                width="16"
+                height="12"
+                viewBox="0 0 16 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9.3 10.85C9.1 10.65 9.004 10.4083 9.012 10.125C9.02067 9.84167 9.125 9.6 9.325 9.4L12.15 6.575H1C0.716667 6.575 0.479 6.479 0.287 6.287C0.0956668 6.09567 0 5.85833 0 5.575C0 5.29167 0.0956668 5.054 0.287 4.862C0.479 4.67067 0.716667 4.575 1 4.575H12.15L9.3 1.725C9.1 1.525 9 1.28733 9 1.012C9 0.737333 9.1 0.5 9.3 0.3C9.5 0.0999997 9.73767 0 10.013 0C10.2877 0 10.525 0.0999997 10.725 0.3L15.3 4.875C15.4 4.975 15.471 5.08333 15.513 5.2C15.5543 5.31667 15.575 5.44167 15.575 5.575C15.575 5.70833 15.5543 5.83333 15.513 5.95C15.471 6.06667 15.4 6.175 15.3 6.275L10.7 10.875C10.5167 11.0583 10.2877 11.15 10.013 11.15C9.73767 11.15 9.5 11.05 9.3 10.85Z"
+                  fill="white"
+                />
+              </svg></button
+          ></a>
           <a class="videotutorialy__item karticka" href=""
             ><h3>Administrace aplikace</h3>
             <p>
               Integer malesuada. Nullam faucibus mi tquis velit. Fusce
               consectetuer risus a nunc. Nam quis nulla. Nemo enim ipsam
               voluptatem quia voluptas
-            </p></a
-          >
+            </p>
+            <button class="button">
+              <svg
+                width="16"
+                height="12"
+                viewBox="0 0 16 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9.3 10.85C9.1 10.65 9.004 10.4083 9.012 10.125C9.02067 9.84167 9.125 9.6 9.325 9.4L12.15 6.575H1C0.716667 6.575 0.479 6.479 0.287 6.287C0.0956668 6.09567 0 5.85833 0 5.575C0 5.29167 0.0956668 5.054 0.287 4.862C0.479 4.67067 0.716667 4.575 1 4.575H12.15L9.3 1.725C9.1 1.525 9 1.28733 9 1.012C9 0.737333 9.1 0.5 9.3 0.3C9.5 0.0999997 9.73767 0 10.013 0C10.2877 0 10.525 0.0999997 10.725 0.3L15.3 4.875C15.4 4.975 15.471 5.08333 15.513 5.2C15.5543 5.31667 15.575 5.44167 15.575 5.575C15.575 5.70833 15.5543 5.83333 15.513 5.95C15.471 6.06667 15.4 6.175 15.3 6.275L10.7 10.875C10.5167 11.0583 10.2877 11.15 10.013 11.15C9.73767 11.15 9.5 11.05 9.3 10.85Z"
+                  fill="white"
+                />
+              </svg></button
+          ></a>
           <a class="videotutorialy__item karticka" href=""
             ><h3>Administrace aplikace</h3>
             <p>
               Integer malesuada. Nullam faucibus mi tquis velit. Fusce
               consectetuer risus a nunc. Nam quis nulla. Nemo enim ipsam
               voluptatem quia voluptas
-            </p></a
-          >
+            </p>
+            <button class="button">
+              <svg
+                width="16"
+                height="12"
+                viewBox="0 0 16 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9.3 10.85C9.1 10.65 9.004 10.4083 9.012 10.125C9.02067 9.84167 9.125 9.6 9.325 9.4L12.15 6.575H1C0.716667 6.575 0.479 6.479 0.287 6.287C0.0956668 6.09567 0 5.85833 0 5.575C0 5.29167 0.0956668 5.054 0.287 4.862C0.479 4.67067 0.716667 4.575 1 4.575H12.15L9.3 1.725C9.1 1.525 9 1.28733 9 1.012C9 0.737333 9.1 0.5 9.3 0.3C9.5 0.0999997 9.73767 0 10.013 0C10.2877 0 10.525 0.0999997 10.725 0.3L15.3 4.875C15.4 4.975 15.471 5.08333 15.513 5.2C15.5543 5.31667 15.575 5.44167 15.575 5.575C15.575 5.70833 15.5543 5.83333 15.513 5.95C15.471 6.06667 15.4 6.175 15.3 6.275L10.7 10.875C10.5167 11.0583 10.2877 11.15 10.013 11.15C9.73767 11.15 9.5 11.05 9.3 10.85Z"
+                  fill="white"
+                />
+              </svg></button
+          ></a>
           <a class="videotutorialy__item karticka" href=""
             ><h3>Administrace aplikace</h3>
             <p>
               Integer malesuada. Nullam faucibus mi tquis velit. Fusce
               consectetuer risus a nunc. Nam quis nulla. Nemo enim ipsam
               voluptatem quia voluptas
-            </p></a
-          >
+            </p>
+            <button class="button">
+              <svg
+                width="16"
+                height="12"
+                viewBox="0 0 16 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9.3 10.85C9.1 10.65 9.004 10.4083 9.012 10.125C9.02067 9.84167 9.125 9.6 9.325 9.4L12.15 6.575H1C0.716667 6.575 0.479 6.479 0.287 6.287C0.0956668 6.09567 0 5.85833 0 5.575C0 5.29167 0.0956668 5.054 0.287 4.862C0.479 4.67067 0.716667 4.575 1 4.575H12.15L9.3 1.725C9.1 1.525 9 1.28733 9 1.012C9 0.737333 9.1 0.5 9.3 0.3C9.5 0.0999997 9.73767 0 10.013 0C10.2877 0 10.525 0.0999997 10.725 0.3L15.3 4.875C15.4 4.975 15.471 5.08333 15.513 5.2C15.5543 5.31667 15.575 5.44167 15.575 5.575C15.575 5.70833 15.5543 5.83333 15.513 5.95C15.471 6.06667 15.4 6.175 15.3 6.275L10.7 10.875C10.5167 11.0583 10.2877 11.15 10.013 11.15C9.73767 11.15 9.5 11.05 9.3 10.85Z"
+                  fill="white"
+                />
+              </svg></button
+          ></a>
           <a class="videotutorialy__item karticka" href=""
             ><h3>Administrace aplikace</h3>
             <p>
               Integer malesuada. Nullam faucibus mi tquis velit. Fusce
               consectetuer risus a nunc. Nam quis nulla. Nemo enim ipsam
               voluptatem quia voluptas
-            </p></a
-          >
+            </p>
+            <button class="button">
+              <svg
+                width="16"
+                height="12"
+                viewBox="0 0 16 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9.3 10.85C9.1 10.65 9.004 10.4083 9.012 10.125C9.02067 9.84167 9.125 9.6 9.325 9.4L12.15 6.575H1C0.716667 6.575 0.479 6.479 0.287 6.287C0.0956668 6.09567 0 5.85833 0 5.575C0 5.29167 0.0956668 5.054 0.287 4.862C0.479 4.67067 0.716667 4.575 1 4.575H12.15L9.3 1.725C9.1 1.525 9 1.28733 9 1.012C9 0.737333 9.1 0.5 9.3 0.3C9.5 0.0999997 9.73767 0 10.013 0C10.2877 0 10.525 0.0999997 10.725 0.3L15.3 4.875C15.4 4.975 15.471 5.08333 15.513 5.2C15.5543 5.31667 15.575 5.44167 15.575 5.575C15.575 5.70833 15.5543 5.83333 15.513 5.95C15.471 6.06667 15.4 6.175 15.3 6.275L10.7 10.875C10.5167 11.0583 10.2877 11.15 10.013 11.15C9.73767 11.15 9.5 11.05 9.3 10.85Z"
+                  fill="white"
+                />
+              </svg></button
+          ></a>
           <a class="videotutorialy__item karticka" href=""
             ><h3>Administrace aplikace</h3>
             <p>
               Integer malesuada. Nullam faucibus mi tquis velit. Fusce
               consectetuer risus a nunc. Nam quis nulla. Nemo enim ipsam
               voluptatem quia voluptas
-            </p></a
-          >
+            </p>
+            <button class="button">
+              <svg
+                width="16"
+                height="12"
+                viewBox="0 0 16 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9.3 10.85C9.1 10.65 9.004 10.4083 9.012 10.125C9.02067 9.84167 9.125 9.6 9.325 9.4L12.15 6.575H1C0.716667 6.575 0.479 6.479 0.287 6.287C0.0956668 6.09567 0 5.85833 0 5.575C0 5.29167 0.0956668 5.054 0.287 4.862C0.479 4.67067 0.716667 4.575 1 4.575H12.15L9.3 1.725C9.1 1.525 9 1.28733 9 1.012C9 0.737333 9.1 0.5 9.3 0.3C9.5 0.0999997 9.73767 0 10.013 0C10.2877 0 10.525 0.0999997 10.725 0.3L15.3 4.875C15.4 4.975 15.471 5.08333 15.513 5.2C15.5543 5.31667 15.575 5.44167 15.575 5.575C15.575 5.70833 15.5543 5.83333 15.513 5.95C15.471 6.06667 15.4 6.175 15.3 6.275L10.7 10.875C10.5167 11.0583 10.2877 11.15 10.013 11.15C9.73767 11.15 9.5 11.05 9.3 10.85Z"
+                  fill="white"
+                />
+              </svg></button
+          ></a>
           <a class="videotutorialy__item karticka" href=""
             ><h3>Administrace aplikace</h3>
             <p>
               Integer malesuada. Nullam faucibus mi tquis velit. Fusce
               consectetuer risus a nunc. Nam quis nulla. Nemo enim ipsam
               voluptatem quia voluptas
-            </p></a
-          >
+            </p>
+            <button class="button">
+              <svg
+                width="16"
+                height="12"
+                viewBox="0 0 16 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9.3 10.85C9.1 10.65 9.004 10.4083 9.012 10.125C9.02067 9.84167 9.125 9.6 9.325 9.4L12.15 6.575H1C0.716667 6.575 0.479 6.479 0.287 6.287C0.0956668 6.09567 0 5.85833 0 5.575C0 5.29167 0.0956668 5.054 0.287 4.862C0.479 4.67067 0.716667 4.575 1 4.575H12.15L9.3 1.725C9.1 1.525 9 1.28733 9 1.012C9 0.737333 9.1 0.5 9.3 0.3C9.5 0.0999997 9.73767 0 10.013 0C10.2877 0 10.525 0.0999997 10.725 0.3L15.3 4.875C15.4 4.975 15.471 5.08333 15.513 5.2C15.5543 5.31667 15.575 5.44167 15.575 5.575C15.575 5.70833 15.5543 5.83333 15.513 5.95C15.471 6.06667 15.4 6.175 15.3 6.275L10.7 10.875C10.5167 11.0583 10.2877 11.15 10.013 11.15C9.73767 11.15 9.5 11.05 9.3 10.85Z"
+                  fill="white"
+                />
+              </svg></button
+          ></a>
           <a class="videotutorialy__item karticka" href=""
             ><h3>Administrace aplikace</h3>
             <p>
               Integer malesuada. Nullam faucibus mi tquis velit. Fusce
               consectetuer risus a nunc. Nam quis nulla. Nemo enim ipsam
               voluptatem quia voluptas
-            </p></a
-          >
+            </p>
+            <button class="button">
+              <svg
+                width="16"
+                height="12"
+                viewBox="0 0 16 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9.3 10.85C9.1 10.65 9.004 10.4083 9.012 10.125C9.02067 9.84167 9.125 9.6 9.325 9.4L12.15 6.575H1C0.716667 6.575 0.479 6.479 0.287 6.287C0.0956668 6.09567 0 5.85833 0 5.575C0 5.29167 0.0956668 5.054 0.287 4.862C0.479 4.67067 0.716667 4.575 1 4.575H12.15L9.3 1.725C9.1 1.525 9 1.28733 9 1.012C9 0.737333 9.1 0.5 9.3 0.3C9.5 0.0999997 9.73767 0 10.013 0C10.2877 0 10.525 0.0999997 10.725 0.3L15.3 4.875C15.4 4.975 15.471 5.08333 15.513 5.2C15.5543 5.31667 15.575 5.44167 15.575 5.575C15.575 5.70833 15.5543 5.83333 15.513 5.95C15.471 6.06667 15.4 6.175 15.3 6.275L10.7 10.875C10.5167 11.0583 10.2877 11.15 10.013 11.15C9.73767 11.15 9.5 11.05 9.3 10.85Z"
+                  fill="white"
+                />
+              </svg></button
+          ></a>
           <a class="videotutorialy__item karticka" href=""
             ><h3>Administrace aplikace</h3>
             <p>
               Integer malesuada. Nullam faucibus mi tquis velit. Fusce
               consectetuer risus a nunc. Nam quis nulla. Nemo enim ipsam
               voluptatem quia voluptas
-            </p></a
-          >
+            </p>
+            <button class="button">
+              <svg
+                width="16"
+                height="12"
+                viewBox="0 0 16 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M9.3 10.85C9.1 10.65 9.004 10.4083 9.012 10.125C9.02067 9.84167 9.125 9.6 9.325 9.4L12.15 6.575H1C0.716667 6.575 0.479 6.479 0.287 6.287C0.0956668 6.09567 0 5.85833 0 5.575C0 5.29167 0.0956668 5.054 0.287 4.862C0.479 4.67067 0.716667 4.575 1 4.575H12.15L9.3 1.725C9.1 1.525 9 1.28733 9 1.012C9 0.737333 9.1 0.5 9.3 0.3C9.5 0.0999997 9.73767 0 10.013 0C10.2877 0 10.525 0.0999997 10.725 0.3L15.3 4.875C15.4 4.975 15.471 5.08333 15.513 5.2C15.5543 5.31667 15.575 5.44167 15.575 5.575C15.575 5.70833 15.5543 5.83333 15.513 5.95C15.471 6.06667 15.4 6.175 15.3 6.275L10.7 10.875C10.5167 11.0583 10.2877 11.15 10.013 11.15C9.73767 11.15 9.5 11.05 9.3 10.85Z"
+                  fill="white"
+                />
+              </svg></button
+          ></a>
         </div>
       </section>
-      <section>
+      <section section--uzsi>
         <h2>
           Máte dotaz <span class="text-oranzova">k chování aplikace?</span>
         </h2>

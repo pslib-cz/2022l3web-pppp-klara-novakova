@@ -114,8 +114,9 @@
   .nav-menu > li:nth-child(1) {
     padding: 1em;
   }
-  a{
+  .li-cara > a{
     text-align: end;
+    width: 100%;
   }
 }
 
