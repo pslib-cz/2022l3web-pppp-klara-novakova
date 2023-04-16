@@ -505,6 +505,7 @@ position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .kontakt_kontejner{
  max-width:500px ;
@@ -512,13 +513,16 @@ position: relative;
 .section-kontakt{
   margin-bottom: 3em;
 }
-.karticka:hover{
-
-
-
-
-  
+.mapa{
+  border-radius: 30px;
+  display: block;
+  margin: 0 auto;
+ width: 100%;
+ height: 100%;
+ max-width: 500px ;
+ min-height: 300px;
 }
+
 
 @media screen and (max-width: 1080px){
   .videotutorily__container{
