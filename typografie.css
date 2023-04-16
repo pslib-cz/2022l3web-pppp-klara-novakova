@@ -15,6 +15,7 @@ h2{
   font-size: 32px;
   font-weight: 800;
   padding: 1em;
+  margin-top: 3em;
 }
 .text-oranzova{
   color:var(--orange);
