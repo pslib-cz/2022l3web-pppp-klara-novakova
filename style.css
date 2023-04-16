@@ -108,7 +108,7 @@
   padding: 1em;
   display: flex;
   flex-direction: column;
-  justify-content: top;
+  
   align-items: center;
 }
 .section-4 {
@@ -173,7 +173,6 @@
 }
 .section-5__obal-obrazku{
   display: block;
-  
   margin-top: 1em;
   margin-left: auto;
  margin-right: auto;
@@ -258,6 +257,62 @@ footer address{
   background-color: var(--svetlounce-modra);
 }
 
+.section-6__container-3{
+  display: flex;
+  flex-direction: column;
+  max-height: 120px;
+  
+}
+.section-6__container-3 > p{
+  
+  margin: 0;
+}
+.section-6__container-3 > p:nth-child(2){
+  margin:  0 0 0.25em 0;
+  font-weight: bold;
+  font-size: 19px;
+}
+.section-6__container-3 > p:nth-child(3){
+  font-size: 14px;
+  font-style: italic;
+}
+.section-6__container-3 > p:nth-child(1) {
+  max-width: 257px;
+  max-height: 68px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+-webkit-line-clamp: 3;
+-webkit-box-orient: vertical;
+margin: 0 0 1em 0;
+}
+.section-6__container-2 > div:nth-child(1){
+ max-width: 140px;
+ max-height: 140px;
+}
+.section-6__container-2 > div > img{
+  display: block;
+  aspect-ratio: 1 / 1;
+  border-radius:50%;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0 auto;
+}
+.section-6__container-2{
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  align-items: center;
+}
+.section-6__container{
+  display: flex;
+  flex-direction: row;
+  gap: 1.5em;
+ flex-wrap: wrap;
+ justify-content: center;
+}
 
 
 
