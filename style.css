@@ -501,6 +501,17 @@ position: relative;
 .videotutorialy__item:hover > button{
   visibility: visible;
 }
+.kontakt__lajna{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.kontakt_kontejner{
+ max-width:500px ;
+}
+.section-kontakt{
+  margin-bottom: 3em;
+}
 .karticka:hover{
 
 
